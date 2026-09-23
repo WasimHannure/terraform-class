@@ -1,0 +1,8 @@
+ami = "ami-0f8a61b66d1accaee"
+ami_id = "ami-0e34b50e714a297f1"
+bucket_name = "devbucket-tf-210926"
+bucket2 = "devbucket2-tf-totest"
+name1 = "dev-HelloWorld"
+name2 = "dev-instance"
+instance_type1 = "t2.medium"
+instance_type2 = "t3.micro"

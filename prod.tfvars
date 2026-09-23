@@ -1,0 +1,6 @@
+ami = "ami-0f8a61b66d1accaee"
+ami_id = "ami-0e34b50e714a297f1"
+bucket_name = "prodbucket-tf-210926"
+bucket2 = "prodbucket2-tf-totest"
+name1 = "prod-HelloWorld"
+name2 = "prod-instance"

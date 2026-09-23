@@ -1,0 +1,6 @@
+ami = "ami-0f8a61b66d1accaee"
+ami_id = "ami-0e34b50e714a297f1"
+bucket_name = "stagebucket-tf-210926"
+bucket2 = "stagebucket2-tf-totest"
+name1 = "stage-HelloWorld"
+name2 = "stage-instance"
