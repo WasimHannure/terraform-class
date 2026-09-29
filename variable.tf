@@ -20,12 +20,12 @@ variable "bucket2" {
 
 variable "name1" {
     description = "The name tag for the first EC2 instance"
-    default = "terraformWorld"
+    default = "tf-gitactions"
 }
 
 variable "name2" {
     description = "The name tag for the second EC2 instance"
-    default = "myec2-github-action"
+    default = "github-actions-instance"
 }
 
 variable "instance_type1" {
