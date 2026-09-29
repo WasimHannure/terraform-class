@@ -37,7 +37,7 @@ resource "aws_s3_bucket" "example2" {
   }
 }
 
-resource "aws_s3_bucket" "example2" {
+resource "aws_s3_bucket" "example3" {
   bucket = "feature-branch-s3-bucket"
 
   tags = {
