@@ -36,3 +36,12 @@ resource "aws_s3_bucket" "example2" {
     Environment = "Dev"
   }
 }
+
+resource "aws_s3_bucket" "example2" {
+  bucket = "feature-branch-s3-bucket"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
