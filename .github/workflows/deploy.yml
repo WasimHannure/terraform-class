@@ -1,9 +1,13 @@
 name: Deploy Terraform Configuration
 
 on:
-  push:
+  pull_request:
     branches:
       - main
+    types:
+      - opened
+      - reopened
+      - synchronize
 
 jobs:
   deploy:
